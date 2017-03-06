@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		561B632B1E2EA22400AFED30 /* RegesterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B632A1E2EA22400AFED30 /* RegesterPageViewController.swift */; };
+		561B632D1E2EA3CF00AFED30 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B632C1E2EA3CF00AFED30 /* LoginViewController.swift */; };
 		56B754851E29751E007D323A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B754841E29751E007D323A /* AppDelegate.swift */; };
 		56B754871E29751E007D323A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B754861E29751E007D323A /* ViewController.swift */; };
 		56B7548A1E29751E007D323A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56B754881E29751E007D323A /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		56B7548F1E29751E007D323A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56B7548D1E29751E007D323A /* LaunchScreen.storyboard */; };
 		56B7549A1E29751E007D323A /* EducationHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B754991E29751E007D323A /* EducationHelperTests.swift */; };
 		56B754A51E29751E007D323A /* EducationHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B754A41E29751E007D323A /* EducationHelperUITests.swift */; };
+		56B754B31E297559007D323A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56B754B21E297559007D323A /* GoogleService-Info.plist */; };
+		92568F45FD74CA65BB112450 /* Pods_EducationHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E514361FA56A593CE5AD67 /* Pods_EducationHelper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10E514361FA56A593CE5AD67 /* Pods_EducationHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EducationHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC792147D9F9F2565C8B08D /* Pods-EducationHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EducationHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-EducationHelper/Pods-EducationHelper.release.xcconfig"; sourceTree = "<group>"; };
+		561B632A1E2EA22400AFED30 /* RegesterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegesterPageViewController.swift; sourceTree = "<group>"; };
+		561B632C1E2EA3CF00AFED30 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		56B754811E29751E007D323A /* EducationHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EducationHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B754841E29751E007D323A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56B754861E29751E007D323A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,8 @@
 		56B754A01E29751E007D323A /* EducationHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EducationHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B754A41E29751E007D323A /* EducationHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationHelperUITests.swift; sourceTree = "<group>"; };
 		56B754A61E29751E007D323A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56B754B21E297559007D323A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7294B46D02B5B81384740F33 /* Pods-EducationHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EducationHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EducationHelper/Pods-EducationHelper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92568F45FD74CA65BB112450 /* Pods_EducationHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +92,8 @@
 				56B754981E29751E007D323A /* EducationHelperTests */,
 				56B754A31E29751E007D323A /* EducationHelperUITests */,
 				56B754821E29751E007D323A /* Products */,
+				8E45DC6D0A01F0054F1E589C /* Pods */,
+				B3D5CA60EB54C428AE4DA4E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +110,15 @@
 		56B754831E29751E007D323A /* EducationHelper */ = {
 			isa = PBXGroup;
 			children = (
+				56B754B21E297559007D323A /* GoogleService-Info.plist */,
 				56B754841E29751E007D323A /* AppDelegate.swift */,
 				56B754861E29751E007D323A /* ViewController.swift */,
 				56B754881E29751E007D323A /* Main.storyboard */,
 				56B7548B1E29751E007D323A /* Assets.xcassets */,
 				56B7548D1E29751E007D323A /* LaunchScreen.storyboard */,
 				56B754901E29751E007D323A /* Info.plist */,
+				561B632A1E2EA22400AFED30 /* RegesterPageViewController.swift */,
+				561B632C1E2EA3CF00AFED30 /* LoginViewController.swift */,
 			);
 			path = EducationHelper;
 			sourceTree = "<group>";
@@ -125,6 +141,23 @@
 			path = EducationHelperUITests;
 			sourceTree = "<group>";
 		};
+		8E45DC6D0A01F0054F1E589C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7294B46D02B5B81384740F33 /* Pods-EducationHelper.debug.xcconfig */,
+				1FC792147D9F9F2565C8B08D /* Pods-EducationHelper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3D5CA60EB54C428AE4DA4E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10E514361FA56A593CE5AD67 /* Pods_EducationHelper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56B754A91E29751E007D323A /* Build configuration list for PBXNativeTarget "EducationHelper" */;
 			buildPhases = (
+				D0339526FA7E892DF72B8E26 /* [CP] Check Pods Manifest.lock */,
 				56B7547D1E29751D007D323A /* Sources */,
 				56B7547E1E29751D007D323A /* Frameworks */,
 				56B7547F1E29751D007D323A /* Resources */,
+				353114453D54FD0E25052E53 /* [CP] Embed Pods Frameworks */,
+				0F6DCF8ACEAD60994026B67D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56B7548F1E29751E007D323A /* LaunchScreen.storyboard in Resources */,
+				56B754B31E297559007D323A /* GoogleService-Info.plist in Resources */,
 				56B7548C1E29751E007D323A /* Assets.xcassets in Resources */,
 				56B7548A1E29751E007D323A /* Main.storyboard in Resources */,
 			);
@@ -254,13 +291,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F6DCF8ACEAD60994026B67D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EducationHelper/Pods-EducationHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		353114453D54FD0E25052E53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EducationHelper/Pods-EducationHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0339526FA7E892DF72B8E26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56B7547D1E29751D007D323A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				561B632D1E2EA3CF00AFED30 /* LoginViewController.swift in Sources */,
 				56B754871E29751E007D323A /* ViewController.swift in Sources */,
 				56B754851E29751E007D323A /* AppDelegate.swift in Sources */,
+				561B632B1E2EA22400AFED30 /* RegesterPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +497,7 @@
 		};
 		56B754AA1E29751E007D323A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7294B46D02B5B81384740F33 /* Pods-EducationHelper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EducationHelper/Info.plist;
@@ -422,6 +510,7 @@
 		};
 		56B754AB1E29751E007D323A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC792147D9F9F2565C8B08D /* Pods-EducationHelper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EducationHelper/Info.plist;
@@ -505,6 +594,7 @@
 				56B754AB1E29751E007D323A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56B754AC1E29751E007D323A /* Build configuration list for PBXNativeTarget "EducationHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +603,7 @@
 				56B754AE1E29751E007D323A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56B754AF1E29751E007D323A /* Build configuration list for PBXNativeTarget "EducationHelperUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +612,7 @@
 				56B754B11E29751E007D323A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,9 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+   
+    @IBOutlet var firstpage: UINavigationItem!
+    @IBOutlet var Bfirst: UIButton!
+    @IBOutlet var Bsecond: UIButton!
+    @IBOutlet var Bcommunect: UIButton!
+    @IBOutlet var Bdegre: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
